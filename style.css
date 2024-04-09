@@ -17,6 +17,12 @@ header {
     background-color: rgb(0, 98, 255);
 }
 
+#Logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .Accedi {
     margin-left: 20rem;
 }
@@ -84,5 +90,9 @@ nav {
 }
 
 footer {
-    display: flex;
+    
+}
+
+.navfooter {
+
 }
