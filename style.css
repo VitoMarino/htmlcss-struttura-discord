@@ -1,10 +1,13 @@
 * {
-    margin: 0 padding: 0 box-sizing: border-box
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 header {
@@ -27,9 +30,59 @@ main {
     background-color: rgb(0, 98, 255);
 }
 
+nav {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* Da rivedere non mi convince come sistema */
+#jumbo {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
 .Mainstart {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.Item1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Item2 {
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    align-items: center;
+}
+
+.Item3 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Item4 {
+    padding-top: 5rem;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    flex-direction: column;
+}
+
+.Itemend {
+    background-color:rgb(187, 187, 187) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
 }
